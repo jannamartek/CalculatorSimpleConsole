@@ -1,0 +1,1781 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="60" passed="56" failed="4" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-09-28T21:22:55 MSK" name="Parallel Testing Suite 2" finished-at="2022-09-28T21:22:55 MSK" duration-ms="234">
+    <groups>
+      <group name="Regression">
+        <method signature="CalculatorUserActionsTest.testGetOperandErrorMessage(double,double,char,java.lang.String)[pri:0, instance:com.it_academy.janna.CalculatorUserActionsTest@78a2da20]" name="testGetOperandErrorMessage" class="com.it_academy.janna.CalculatorUserActionsTest"/>
+        <method signature="CalculatorUserActionsTest.testGetUserInputNumberErrorMessage(java.lang.String,double,char,java.lang.String)[pri:0, instance:com.it_academy.janna.CalculatorUserActionsTest@78a2da20]" name="testGetUserInputNumberErrorMessage" class="com.it_academy.janna.CalculatorUserActionsTest"/>
+      </group> <!-- Regression -->
+    </groups>
+    <test started-at="2022-09-28T21:22:55 MSK" name="Regression" finished-at="2022-09-28T21:22:55 MSK" duration-ms="234">
+      <class name="com.it_academy.janna.CalculatorUserActionsTest">
+        <test-method is-config="true" signature="beforeGroup()[pri:0, instance:com.it_academy.janna.CalculatorUserActionsTest@78a2da20]" started-at="2022-09-28T21:22:55 MSK" name="beforeGroup" description="Before groups preparations" finished-at="2022-09-28T21:22:55 MSK" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeGroup -->
+        <test-method signature="testGetOperandErrorMessage(double,double,char,java.lang.String)[pri:0, instance:com.it_academy.janna.CalculatorUserActionsTest@78a2da20]" started-at="2022-09-28T21:22:55 MSK" name="testGetOperandErrorMessage" data-provider="getOperandErrorMessageDataProvider" finished-at="2022-09-28T21:22:55 MSK" duration-ms="110" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[12]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1.2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[)]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Error enter the operand. Please, try again.]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.internal.thread.ThreadTimeoutException">
+            <message>
+              <![CDATA[Method com.it_academy.janna.CalculatorUserActionsTest.testGetOperandErrorMessage() didn't finish within the time-out 100]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.internal.thread.ThreadTimeoutException: Method com.it_academy.janna.CalculatorUserActionsTest.testGetOperandErrorMessage() didn't finish within the time-out 100
+at java.base/java.io.FileInputStream.readBytes(Native Method)
+at java.base/java.io.FileInputStream.read(FileInputStream.java:293)
+at java.base/java.io.BufferedInputStream.read1(BufferedInputStream.java:308)
+at java.base/java.io.BufferedInputStream.implRead(BufferedInputStream.java:382)
+at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:361)
+at java.base/sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:333)
+at java.base/sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:376)
+at java.base/sun.nio.cs.StreamDecoder.lockedRead(StreamDecoder.java:219)
+at java.base/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:173)
+at java.base/java.io.Reader.read(Reader.java:212)
+at java.base/java.io.InputStreamReader.read(InputStreamReader.java:169)
+at java.base/java.util.Scanner.readInput(Scanner.java:886)
+at java.base/java.util.Scanner.hasNext(Scanner.java:1450)
+at com.it_academy.janna.CalculatorUserActions.getOperand(CalculatorUserActions.java:25)
+at com.it_academy.janna.Calculator.calculate(Calculator.java:42)
+at com.it_academy.janna.CalculatorUserActionsTest.testGetOperandErrorMessage(CalculatorUserActionsTest.java:24)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.InvokeMethodRunnable.runOne(InvokeMethodRunnable.java:47)
+at org.testng.internal.invokers.InvokeMethodRunnable.call(InvokeMethodRunnable.java:76)
+at org.testng.internal.invokers.InvokeMethodRunnable.call(InvokeMethodRunnable.java:11)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1589)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.internal.thread.ThreadTimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetOperandErrorMessage -->
+        <test-method signature="testGetOperandErrorMessage(double,double,char,java.lang.String)[pri:0, instance:com.it_academy.janna.CalculatorUserActionsTest@78a2da20]" started-at="2022-09-28T21:22:55 MSK" name="testGetOperandErrorMessage" data-provider="getOperandErrorMessageDataProvider" finished-at="2022-09-28T21:22:55 MSK" duration-ms="109" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[46]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-45]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[=]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Error enter the operand. Please, try again.]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.internal.thread.ThreadTimeoutException">
+            <message>
+              <![CDATA[Method com.it_academy.janna.CalculatorUserActionsTest.testGetOperandErrorMessage() didn't finish within the time-out 100]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.internal.thread.ThreadTimeoutException: Method com.it_academy.janna.CalculatorUserActionsTest.testGetOperandErrorMessage() didn't finish within the time-out 100
+at java.base/jdk.internal.misc.Unsafe.park(Native Method)
+at java.base/java.util.concurrent.locks.LockSupport.park(LockSupport.java:221)
+at java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer.acquire(AbstractQueuedSynchronizer.java:715)
+at java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer.acquire(AbstractQueuedSynchronizer.java:938)
+at java.base/java.util.concurrent.locks.ReentrantLock$Sync.lock(ReentrantLock.java:153)
+at java.base/java.util.concurrent.locks.ReentrantLock.lock(ReentrantLock.java:322)
+at java.base/jdk.internal.misc.InternalLock.lock(InternalLock.java:74)
+at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:359)
+at java.base/sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:333)
+at java.base/sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:376)
+at java.base/sun.nio.cs.StreamDecoder.lockedRead(StreamDecoder.java:219)
+at java.base/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:173)
+at java.base/java.io.Reader.read(Reader.java:212)
+at java.base/java.io.InputStreamReader.read(InputStreamReader.java:169)
+at java.base/java.util.Scanner.readInput(Scanner.java:886)
+at java.base/java.util.Scanner.hasNext(Scanner.java:1450)
+at com.it_academy.janna.CalculatorUserActions.getOperand(CalculatorUserActions.java:25)
+at com.it_academy.janna.Calculator.calculate(Calculator.java:42)
+at com.it_academy.janna.CalculatorUserActionsTest.testGetOperandErrorMessage(CalculatorUserActionsTest.java:24)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.InvokeMethodRunnable.runOne(InvokeMethodRunnable.java:47)
+at org.testng.internal.invokers.InvokeMethodRunnable.call(InvokeMethodRunnable.java:76)
+at org.testng.internal.invokers.InvokeMethodRunnable.call(InvokeMethodRunnable.java:11)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1589)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.internal.thread.ThreadTimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetOperandErrorMessage -->
+        <test-method signature="testGetUserInputNumberErrorMessage(java.lang.String,double,char,java.lang.String)[pri:0, instance:com.it_academy.janna.CalculatorUserActionsTest@78a2da20]" started-at="2022-09-28T21:22:55 MSK" name="testGetUserInputNumberErrorMessage" data-provider="getUserInputNumberErrorMessageDataProvider" finished-at="2022-09-28T21:22:55 MSK" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[fv]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1.2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[*]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Error enter the number. Please, try again.]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NumberFormatException">
+            <message>
+              <![CDATA[For input string: "fv"]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NumberFormatException: For input string: "fv"
+at java.base/jdk.internal.math.FloatingDecimal.readJavaFormatString(FloatingDecimal.java:2054)
+at java.base/jdk.internal.math.FloatingDecimal.parseDouble(FloatingDecimal.java:110)
+at java.base/java.lang.Double.parseDouble(Double.java:735)
+at com.it_academy.janna.CalculatorUserActionsTest.testGetUserInputNumberErrorMessage(CalculatorUserActionsTest.java:38)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at com.it_academy.janna.RunTest.main(RunTest.java:17)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NumberFormatException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetUserInputNumberErrorMessage -->
+      </class> <!-- com.it_academy.janna.CalculatorUserActionsTest -->
+    </test> <!-- Regression -->
+  </suite> <!-- Parallel Testing Suite 2 -->
+  <suite started-at="2022-09-28T21:22:55 MSK" name="Parallel Testing Suite 1" finished-at="2022-09-28T21:22:55 MSK" duration-ms="140">
+    <groups>
+      <group name="Regression">
+        <method signature="CalculatorTest.testAddition(double,double,double)[pri:0, instance:com.it_academy.janna.CalculatorTest@76b10754]" name="testAddition" class="com.it_academy.janna.CalculatorTest"/>
+        <method signature="CalculatorTest.testBorder(double,double,char,double)[pri:0, instance:com.it_academy.janna.CalculatorTest@76b10754]" name="testBorder" class="com.it_academy.janna.CalculatorTest"/>
+        <method signature="CalculatorTest.testDivision(double,double,double)[pri:0, instance:com.it_academy.janna.CalculatorTest@76b10754]" name="testDivision" class="com.it_academy.janna.CalculatorTest"/>
+        <method signature="CalculatorTest.testExceptionDivisionByZero(double,double,char,java.lang.String)[pri:0, instance:com.it_academy.janna.CalculatorTest@76b10754]" name="testExceptionDivisionByZero" class="com.it_academy.janna.CalculatorTest"/>
+        <method signature="CalculatorTest.testMultiplication(double,double,double)[pri:0, instance:com.it_academy.janna.CalculatorTest@76b10754]" name="testMultiplication" class="com.it_academy.janna.CalculatorTest"/>
+        <method signature="CalculatorTest.testSubtraction(double,double,double)[pri:0, instance:com.it_academy.janna.CalculatorTest@76b10754]" name="testSubtraction" class="com.it_academy.janna.CalculatorTest"/>
+      </group> <!-- Regression -->
+    </groups>
+    <test started-at="2022-09-28T21:22:55 MSK" name="Regression" finished-at="2022-09-28T21:22:55 MSK" duration-ms="140">
+      <class name="com.it_academy.janna.CalculatorTest">
+        <test-method is-config="true" signature="beforeGroup()[pri:0, instance:com.it_academy.janna.CalculatorTest@76b10754]" started-at="2022-09-28T21:22:55 MSK" name="beforeGroup" description="Before groups preparations" finished-at="2022-09-28T21:22:55 MSK" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeGroup -->
+        <test-method signature="testAddition(double,double,double)[pri:0, instance:com.it_academy.janna.CalculatorTest@76b10754]" started-at="2022-09-28T21:22:55 MSK" name="testAddition" data-provider="additionDataProvider" finished-at="2022-09-28T21:22:55 MSK" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddition -->
+        <test-method signature="testBorder(double,double,char,double)[pri:0, instance:com.it_academy.janna.CalculatorTest@76b10754]" started-at="2022-09-28T21:22:55 MSK" name="testBorder" data-provider="testBorderDataProvider" finished-at="2022-09-28T21:22:55 MSK" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2147483647]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2147483647]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[+]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[4.294967294E9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBorder -->
+        <test-method signature="testBorder(double,double,char,double)[pri:0, instance:com.it_academy.janna.CalculatorTest@76b10754]" started-at="2022-09-28T21:22:55 MSK" name="testBorder" data-provider="testBorderDataProvider" finished-at="2022-09-28T21:22:55 MSK" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2147483647]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[+]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[2.147483648E9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBorder -->
+        <test-method signature="testAddition(double,double,double)[pri:0, instance:com.it_academy.janna.CalculatorTest@76b10754]" started-at="2022-09-28T21:22:55 MSK" name="testAddition" data-provider="additionDataProvider" finished-at="2022-09-28T21:22:55 MSK" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[86]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[63]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[149]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddition -->
+        <test-method signature="testAddition(double,double,double)[pri:0, instance:com.it_academy.janna.CalculatorTest@76b10754]" started-at="2022-09-28T21:22:55 MSK" name="testAddition" data-provider="additionDataProvider" finished-at="2022-09-28T21:22:55 MSK" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[61.08]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1269]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1330.08]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddition -->
+        <test-method signature="testAddition(double,double,double)[pri:0, instance:com.it_academy.janna.CalculatorTest@76b10754]" started-at="2022-09-28T21:22:55 MSK" name="testAddition" data-provider="additionDataProvider" finished-at="2022-09-28T21:22:55 MSK" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-25]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[15]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-10.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddition -->
+        <test-method signature="testAddition(double,double,double)[pri:0, instance:com.it_academy.janna.CalculatorTest@76b10754]" started-at="2022-09-28T21:22:55 MSK" name="testAddition" data-provider="additionDataProvider" finished-at="2022-09-28T21:22:55 MSK" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-8.65]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-6.25]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-14.9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddition -->
+        <test-method signature="testAddition(double,double,double)[pri:0, instance:com.it_academy.janna.CalculatorTest@76b10754]" started-at="2022-09-28T21:22:55 MSK" name="testAddition" data-provider="additionDataProvider" finished-at="2022-09-28T21:22:55 MSK" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-2.3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-0.2999999999999998]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddition -->
+        <test-method signature="testAddition(double,double,double)[pri:0, instance:com.it_academy.janna.CalculatorTest@76b10754]" started-at="2022-09-28T21:22:55 MSK" name="testAddition" data-provider="additionDataProvider" finished-at="2022-09-28T21:22:55 MSK" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-856]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-625]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-1481.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddition -->
+        <test-method signature="testBorder(double,double,char,double)[pri:0, instance:com.it_academy.janna.CalculatorTest@76b10754]" started-at="2022-09-28T21:22:55 MSK" name="testBorder" data-provider="testBorderDataProvider" finished-at="2022-09-28T21:22:55 MSK" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2147483647]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[*]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[2.147483647E9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBorder -->
+        <test-method signature="testBorder(double,double,char,double)[pri:0, instance:com.it_academy.janna.CalculatorTest@76b10754]" started-at="2022-09-28T21:22:55 MSK" name="testBorder" data-provider="testBorderDataProvider" finished-at="2022-09-28T21:22:55 MSK" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4.9E-324]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4.9E-324]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[0.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBorder -->
+        <test-method signature="testBorder(double,double,char,double)[pri:0, instance:com.it_academy.janna.CalculatorTest@76b10754]" started-at="2022-09-28T21:22:55 MSK" name="testBorder" data-provider="testBorderDataProvider" finished-at="2022-09-28T21:22:55 MSK" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2147483647]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2147483647]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[*]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[4.6116860141324206E18]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBorder -->
+        <test-method signature="testBorder(double,double,char,double)[pri:0, instance:com.it_academy.janna.CalculatorTest@76b10754]" started-at="2022-09-28T21:22:55 MSK" name="testBorder" data-provider="testBorderDataProvider" finished-at="2022-09-28T21:22:55 MSK" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4.9E-324]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[-1.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBorder -->
+        <test-method signature="testBorder(double,double,char,double)[pri:0, instance:com.it_academy.janna.CalculatorTest@76b10754]" started-at="2022-09-28T21:22:55 MSK" name="testBorder" data-provider="testBorderDataProvider" finished-at="2022-09-28T21:22:55 MSK" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1.7976931348623157E308]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1.7976931348623157E308]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[/]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBorder -->
+        <test-method signature="testBorder(double,double,char,double)[pri:0, instance:com.it_academy.janna.CalculatorTest@76b10754]" started-at="2022-09-28T21:22:55 MSK" name="testBorder" data-provider="testBorderDataProvider" finished-at="2022-09-28T21:22:55 MSK" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1.7976931348623157E308]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2147483647]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1.7976931348623157E308]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBorder -->
+        <test-method signature="testBorder(double,double,char,double)[pri:0, instance:com.it_academy.janna.CalculatorTest@76b10754]" started-at="2022-09-28T21:22:55 MSK" name="testBorder" data-provider="testBorderDataProvider" finished-at="2022-09-28T21:22:55 MSK" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2147483647]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[/]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[2.147483647E9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBorder -->
+        <test-method signature="testBorder(double,double,char,double)[pri:0, instance:com.it_academy.janna.CalculatorTest@76b10754]" started-at="2022-09-28T21:22:55 MSK" name="testBorder" data-provider="testBorderDataProvider" finished-at="2022-09-28T21:22:55 MSK" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2147483647]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2147483647]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBorder -->
+        <test-method signature="testBorder(double,double,char,double)[pri:0, instance:com.it_academy.janna.CalculatorTest@76b10754]" started-at="2022-09-28T21:22:55 MSK" name="testBorder" data-provider="testBorderDataProvider" finished-at="2022-09-28T21:22:55 MSK" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1.7976931348623157E308]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2147483647]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[/]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[8.371160997540839E298]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBorder -->
+        <test-method signature="testBorder(double,double,char,double)[pri:0, instance:com.it_academy.janna.CalculatorTest@76b10754]" started-at="2022-09-28T21:22:55 MSK" name="testBorder" data-provider="testBorderDataProvider" finished-at="2022-09-28T21:22:55 MSK" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-2147483648]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-2147483648]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[*]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[4.611686018427388E18]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBorder -->
+        <test-method signature="testBorder(double,double,char,double)[pri:0, instance:com.it_academy.janna.CalculatorTest@76b10754]" started-at="2022-09-28T21:22:55 MSK" name="testBorder" data-provider="testBorderDataProvider" finished-at="2022-09-28T21:22:55 MSK" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2147483647]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1.7976931348623157E308]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[-1.7976931348623157E308]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBorder -->
+        <test-method signature="testBorder(double,double,char,double)[pri:0, instance:com.it_academy.janna.CalculatorTest@76b10754]" started-at="2022-09-28T21:22:55 MSK" name="testBorder" data-provider="testBorderDataProvider" finished-at="2022-09-28T21:22:55 MSK" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1.7976931348623157E308]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[/]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1.7976931348623157E308]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBorder -->
+        <test-method signature="testBorder(double,double,char,double)[pri:0, instance:com.it_academy.janna.CalculatorTest@76b10754]" started-at="2022-09-28T21:22:55 MSK" name="testBorder" data-provider="testBorderDataProvider" finished-at="2022-09-28T21:22:55 MSK" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2147483647]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2147483647]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[/]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBorder -->
+        <test-method signature="testBorder(double,double,char,double)[pri:0, instance:com.it_academy.janna.CalculatorTest@76b10754]" started-at="2022-09-28T21:22:55 MSK" name="testBorder" data-provider="testBorderDataProvider" finished-at="2022-09-28T21:22:55 MSK" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-2147483648]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-2147483648]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[0.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBorder -->
+        <test-method signature="testBorder(double,double,char,double)[pri:0, instance:com.it_academy.janna.CalculatorTest@76b10754]" started-at="2022-09-28T21:22:55 MSK" name="testBorder" data-provider="testBorderDataProvider" finished-at="2022-09-28T21:22:55 MSK" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1.7976931348623157E308]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[+]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1.7976931348623157E308]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBorder -->
+        <test-method signature="testBorder(double,double,char,double)[pri:0, instance:com.it_academy.janna.CalculatorTest@76b10754]" started-at="2022-09-28T21:22:55 MSK" name="testBorder" data-provider="testBorderDataProvider" finished-at="2022-09-28T21:22:55 MSK" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2147483647]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[2.147483646E9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBorder -->
+        <test-method signature="testBorder(double,double,char,double)[pri:0, instance:com.it_academy.janna.CalculatorTest@76b10754]" started-at="2022-09-28T21:22:55 MSK" name="testBorder" data-provider="testBorderDataProvider" finished-at="2022-09-28T21:22:55 MSK" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2147483647]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1.5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[+]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[2.1474836485E9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBorder -->
+        <test-method signature="testBorder(double,double,char,double)[pri:0, instance:com.it_academy.janna.CalculatorTest@76b10754]" started-at="2022-09-28T21:22:55 MSK" name="testBorder" data-provider="testBorderDataProvider" finished-at="2022-09-28T21:22:55 MSK" duration-ms="0" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1.7976931348623157E308]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1.7976931348623157E308]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[+]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[999999999]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Infinity expected [9.99999999E8] but found [Infinity]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Infinity expected [9.99999999E8] but found [Infinity]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertEquals(Assert.java:727)
+at com.it_academy.janna.CalculatorTest.testBorder(CalculatorTest.java:131)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at com.it_academy.janna.RunTest.main(RunTest.java:17)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBorder -->
+        <test-method signature="testBorder(double,double,char,double)[pri:0, instance:com.it_academy.janna.CalculatorTest@76b10754]" started-at="2022-09-28T21:22:55 MSK" name="testBorder" data-provider="testBorderDataProvider" finished-at="2022-09-28T21:22:55 MSK" duration-ms="0" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2147483647]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1.7976931348623157E308]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[*]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[999999999]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Infinity expected [9.99999999E8] but found [Infinity]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Infinity expected [9.99999999E8] but found [Infinity]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertEquals(Assert.java:727)
+at com.it_academy.janna.CalculatorTest.testBorder(CalculatorTest.java:131)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at com.it_academy.janna.RunTest.main(RunTest.java:17)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBorder -->
+        <test-method signature="testBorder(double,double,char,double)[pri:0, instance:com.it_academy.janna.CalculatorTest@76b10754]" started-at="2022-09-28T21:22:55 MSK" name="testBorder" data-provider="testBorderDataProvider" finished-at="2022-09-28T21:22:55 MSK" duration-ms="0" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2147483647]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4.9E-324]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[/]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[999999999]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Infinity expected [9.99999999E8] but found [Infinity]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Infinity expected [9.99999999E8] but found [Infinity]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertEquals(Assert.java:727)
+at com.it_academy.janna.CalculatorTest.testBorder(CalculatorTest.java:131)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at com.it_academy.janna.RunTest.main(RunTest.java:17)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBorder -->
+        <test-method signature="testDivision(double,double,double)[pri:0, instance:com.it_academy.janna.CalculatorTest@76b10754]" started-at="2022-09-28T21:22:55 MSK" name="testDivision" data-provider="divisionDataProvider" finished-at="2022-09-28T21:22:55 MSK" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-1.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDivision -->
+        <test-method signature="testExceptionDivisionByZero(double,double,char,java.lang.String)[pri:0, instance:com.it_academy.janna.CalculatorTest@76b10754]" started-at="2022-09-28T21:22:55 MSK" name="testExceptionDivisionByZero" data-provider="divisionByZeroDataProvider" finished-at="2022-09-28T21:22:55 MSK" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[/]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Division by 0 can't be done]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.ArithmeticException">
+            <message>
+              <![CDATA[Division by 0 can't be done]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.ArithmeticException: Division by 0 can't be done
+at com.it_academy.janna.Calculator.division(Calculator.java:19)
+at com.it_academy.janna.Calculator.calculate(Calculator.java:38)
+at com.it_academy.janna.CalculatorTest.testExceptionDivisionByZero(CalculatorTest.java:90)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at com.it_academy.janna.RunTest.main(RunTest.java:17)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.ArithmeticException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testExceptionDivisionByZero -->
+        <test-method signature="testDivision(double,double,double)[pri:0, instance:com.it_academy.janna.CalculatorTest@76b10754]" started-at="2022-09-28T21:22:55 MSK" name="testDivision" data-provider="divisionDataProvider" finished-at="2022-09-28T21:22:55 MSK" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-25]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[15]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-1.6666666666666667]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDivision -->
+        <test-method signature="testDivision(double,double,double)[pri:0, instance:com.it_academy.janna.CalculatorTest@76b10754]" started-at="2022-09-28T21:22:55 MSK" name="testDivision" data-provider="divisionDataProvider" finished-at="2022-09-28T21:22:55 MSK" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[61.08]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1269]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0.04813238770685579]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDivision -->
+        <test-method signature="testDivision(double,double,double)[pri:0, instance:com.it_academy.janna.CalculatorTest@76b10754]" started-at="2022-09-28T21:22:55 MSK" name="testDivision" data-provider="divisionDataProvider" finished-at="2022-09-28T21:22:55 MSK" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[7000]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0.42857142857142855]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDivision -->
+        <test-method signature="testDivision(double,double,double)[pri:0, instance:com.it_academy.janna.CalculatorTest@76b10754]" started-at="2022-09-28T21:22:55 MSK" name="testDivision" data-provider="divisionDataProvider" finished-at="2022-09-28T21:22:55 MSK" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-856]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-625]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1.3696]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDivision -->
+        <test-method signature="testDivision(double,double,double)[pri:0, instance:com.it_academy.janna.CalculatorTest@76b10754]" started-at="2022-09-28T21:22:55 MSK" name="testDivision" data-provider="divisionDataProvider" finished-at="2022-09-28T21:22:55 MSK" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-8.65]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-6.25]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1.3840000000000001]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDivision -->
+        <test-method signature="testDivision(double,double,double)[pri:0, instance:com.it_academy.janna.CalculatorTest@76b10754]" started-at="2022-09-28T21:22:55 MSK" name="testDivision" data-provider="divisionDataProvider" finished-at="2022-09-28T21:22:55 MSK" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[86]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[63]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1.3650793650793651]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDivision -->
+        <test-method signature="testBorder(double,double,char,double)[pri:0, instance:com.it_academy.janna.CalculatorTest@76b10754]" started-at="2022-09-28T21:22:55 MSK" name="testBorder" data-provider="testBorderDataProvider" finished-at="2022-09-28T21:22:55 MSK" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4.9E-324]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[*]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[4.9E-324]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBorder -->
+        <test-method signature="testExceptionDivisionByZero(double,double,char,java.lang.String)[pri:0, instance:com.it_academy.janna.CalculatorTest@76b10754]" started-at="2022-09-28T21:22:55 MSK" name="testExceptionDivisionByZero" data-provider="divisionByZeroDataProvider" finished-at="2022-09-28T21:22:55 MSK" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-10]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[/]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Division by 0 can't be done]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.ArithmeticException">
+            <message>
+              <![CDATA[Division by 0 can't be done]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.ArithmeticException: Division by 0 can't be done
+at com.it_academy.janna.Calculator.division(Calculator.java:19)
+at com.it_academy.janna.Calculator.calculate(Calculator.java:38)
+at com.it_academy.janna.CalculatorTest.testExceptionDivisionByZero(CalculatorTest.java:90)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at com.it_academy.janna.RunTest.main(RunTest.java:17)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.ArithmeticException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testExceptionDivisionByZero -->
+        <test-method signature="testBorder(double,double,char,double)[pri:0, instance:com.it_academy.janna.CalculatorTest@76b10754]" started-at="2022-09-28T21:22:55 MSK" name="testBorder" data-provider="testBorderDataProvider" finished-at="2022-09-28T21:22:55 MSK" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4.9E-324]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4.9E-324]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[*]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[0.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBorder -->
+        <test-method signature="testBorder(double,double,char,double)[pri:0, instance:com.it_academy.janna.CalculatorTest@76b10754]" started-at="2022-09-28T21:22:55 MSK" name="testBorder" data-provider="testBorderDataProvider" finished-at="2022-09-28T21:22:55 MSK" duration-ms="0" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1.7976931348623157E308]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2147483647]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[*]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[999999999]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Infinity expected [9.99999999E8] but found [Infinity]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Infinity expected [9.99999999E8] but found [Infinity]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertEquals(Assert.java:727)
+at com.it_academy.janna.CalculatorTest.testBorder(CalculatorTest.java:131)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at com.it_academy.janna.RunTest.main(RunTest.java:17)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBorder -->
+        <test-method signature="testMultiplication(double,double,double)[pri:0, instance:com.it_academy.janna.CalculatorTest@76b10754]" started-at="2022-09-28T21:22:55 MSK" name="testMultiplication" data-provider="multiplicationDataProvider" finished-at="2022-09-28T21:22:55 MSK" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-25]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[15]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-375.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMultiplication -->
+        <test-method signature="testMultiplication(double,double,double)[pri:0, instance:com.it_academy.janna.CalculatorTest@76b10754]" started-at="2022-09-28T21:22:55 MSK" name="testMultiplication" data-provider="multiplicationDataProvider" finished-at="2022-09-28T21:22:55 MSK" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-856]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-625]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[535000.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMultiplication -->
+        <test-method signature="testSubtraction(double,double,double)[pri:0, instance:com.it_academy.janna.CalculatorTest@76b10754]" started-at="2022-09-28T21:22:55 MSK" name="testSubtraction" data-provider="subtractionDataProvider" finished-at="2022-09-28T21:22:55 MSK" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSubtraction -->
+        <test-method signature="testMultiplication(double,double,double)[pri:0, instance:com.it_academy.janna.CalculatorTest@76b10754]" started-at="2022-09-28T21:22:55 MSK" name="testMultiplication" data-provider="multiplicationDataProvider" finished-at="2022-09-28T21:22:55 MSK" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[61.08]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1269]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[77510.52]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMultiplication -->
+        <test-method signature="testMultiplication(double,double,double)[pri:0, instance:com.it_academy.janna.CalculatorTest@76b10754]" started-at="2022-09-28T21:22:55 MSK" name="testMultiplication" data-provider="multiplicationDataProvider" finished-at="2022-09-28T21:22:55 MSK" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-2.9]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-5.8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMultiplication -->
+        <test-method signature="testMultiplication(double,double,double)[pri:0, instance:com.it_academy.janna.CalculatorTest@76b10754]" started-at="2022-09-28T21:22:55 MSK" name="testMultiplication" data-provider="multiplicationDataProvider" finished-at="2022-09-28T21:22:55 MSK" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-8.65]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-6.25]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[54.0625]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMultiplication -->
+        <test-method signature="testMultiplication(double,double,double)[pri:0, instance:com.it_academy.janna.CalculatorTest@76b10754]" started-at="2022-09-28T21:22:55 MSK" name="testMultiplication" data-provider="multiplicationDataProvider" finished-at="2022-09-28T21:22:55 MSK" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[86]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[63]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[5418.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMultiplication -->
+        <test-method signature="testMultiplication(double,double,double)[pri:0, instance:com.it_academy.janna.CalculatorTest@76b10754]" started-at="2022-09-28T21:22:55 MSK" name="testMultiplication" data-provider="multiplicationDataProvider" finished-at="2022-09-28T21:22:55 MSK" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMultiplication -->
+        <test-method signature="testSubtraction(double,double,double)[pri:0, instance:com.it_academy.janna.CalculatorTest@76b10754]" started-at="2022-09-28T21:22:55 MSK" name="testSubtraction" data-provider="subtractionDataProvider" finished-at="2022-09-28T21:22:55 MSK" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-8.65]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-6.25]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-2.4000000000000004]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSubtraction -->
+        <test-method signature="testMultiplication(double,double,double)[pri:0, instance:com.it_academy.janna.CalculatorTest@76b10754]" started-at="2022-09-28T21:22:55 MSK" name="testMultiplication" data-provider="multiplicationDataProvider" finished-at="2022-09-28T21:22:55 MSK" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[7000]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[21000000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMultiplication -->
+        <test-method signature="testSubtraction(double,double,double)[pri:0, instance:com.it_academy.janna.CalculatorTest@76b10754]" started-at="2022-09-28T21:22:55 MSK" name="testSubtraction" data-provider="subtractionDataProvider" finished-at="2022-09-28T21:22:55 MSK" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-25]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[15]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-40.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSubtraction -->
+        <test-method signature="testSubtraction(double,double,double)[pri:0, instance:com.it_academy.janna.CalculatorTest@76b10754]" started-at="2022-09-28T21:22:55 MSK" name="testSubtraction" data-provider="subtractionDataProvider" finished-at="2022-09-28T21:22:55 MSK" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[86]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[63]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[23.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSubtraction -->
+        <test-method signature="testSubtraction(double,double,double)[pri:0, instance:com.it_academy.janna.CalculatorTest@76b10754]" started-at="2022-09-28T21:22:55 MSK" name="testSubtraction" data-provider="subtractionDataProvider" finished-at="2022-09-28T21:22:55 MSK" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-856]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-625]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-231.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSubtraction -->
+        <test-method signature="testSubtraction(double,double,double)[pri:0, instance:com.it_academy.janna.CalculatorTest@76b10754]" started-at="2022-09-28T21:22:55 MSK" name="testSubtraction" data-provider="subtractionDataProvider" finished-at="2022-09-28T21:22:55 MSK" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-2.2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-4.2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSubtraction -->
+        <test-method signature="testSubtraction(double,double,double)[pri:0, instance:com.it_academy.janna.CalculatorTest@76b10754]" started-at="2022-09-28T21:22:55 MSK" name="testSubtraction" data-provider="subtractionDataProvider" finished-at="2022-09-28T21:22:55 MSK" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[61.08]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1269]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-1207.92]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSubtraction -->
+        <test-method signature="testSubtraction(double,double,double)[pri:0, instance:com.it_academy.janna.CalculatorTest@76b10754]" started-at="2022-09-28T21:22:55 MSK" name="testSubtraction" data-provider="subtractionDataProvider" finished-at="2022-09-28T21:22:55 MSK" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[7000]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-4000.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSubtraction -->
+      </class> <!-- com.it_academy.janna.CalculatorTest -->
+    </test> <!-- Regression -->
+  </suite> <!-- Parallel Testing Suite 1 -->
+</testng-results>
