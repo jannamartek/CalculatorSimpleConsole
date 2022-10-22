@@ -7,6 +7,5 @@ public class CalculatorRun {
         CalculatorUserActions.printWelcomeMessage();
         CalculatorUserActions.getUserInput();
         CalculatorUserActions.getUserChoice();
-
     }
 }
