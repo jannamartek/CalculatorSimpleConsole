@@ -14,7 +14,6 @@ public class CalculatorUserActions {
             System.out.println("Error enter the number. Please, try again.");
             scanner.next();
             number = getNumber();
-
         }
         return number;
     }
@@ -50,8 +49,6 @@ public class CalculatorUserActions {
         System.out.println();
     }
 
-
-
     public static void getUserChoice() {
         Scanner scanner = new Scanner(System.in);
         scanner.useLocale(Locale.US);
@@ -65,7 +62,6 @@ public class CalculatorUserActions {
                 if (userChoice.equalsIgnoreCase("Y")) {
                     getUserInput();
                     getUserChoice();
-
                 }
             }
         }
