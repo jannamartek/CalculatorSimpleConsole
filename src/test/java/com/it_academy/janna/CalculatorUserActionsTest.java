@@ -9,7 +9,6 @@ import org.testng.internal.thread.ThreadTimeoutException;
 public class CalculatorUserActionsTest extends AnnotationTest {
     Calculator calculator = new Calculator();
 
-
     @DataProvider(name = "getOperandErrorMessageDataProvider")
     public Object[][] getOperandErrorMessageLocalData() {
         return new Object[][]{
@@ -24,7 +23,6 @@ public class CalculatorUserActionsTest extends AnnotationTest {
         Assert.assertEquals(calculator.calculate(numberOne, numberTwo, operation), result);
         Thread.sleep(99);
     }
-
 
     @DataProvider(name = "getUserInputNumberErrorMessageDataProvider")
     public Object[][] getUserInputNumberErrorMessageLocalData() {
